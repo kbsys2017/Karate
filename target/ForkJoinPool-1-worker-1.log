@@ -1,0 +1,41 @@
+09:36:47.323 karate.env system property was:  
+09:36:47.581 [print] Karate-config -- https://reqres.in/api/users
+09:36:47.581 [print] Karate-config -- Test ID
+09:36:48.204 request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 50
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_161)
+{"email":"eve.holt@reqres.in","password":"pistol"}
+
+09:36:48.707 response time in milliseconds: 502.56
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 58987481de7b5727-IAD
+1 < Connection: keep-alive
+1 < Content-Length: 100
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 25 Apr 2020 13:36:49 GMT
+1 < Etag: W/"64-gqXbklPGxiLtqtIUrCgIgvp+W6g"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dae962176df96d385ebc4f4ccad99dc801587821808; expires=Mon, 25-May-20 13:36:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 02532725240000572716af8200000001
+{"email":"eve.holt@reqres.in","password":"pistol","id":"100","createdAt":"2020-04-25T13:36:49.099Z"}
+
+09:36:48.711 [print] resonse -- {
+  "createdAt": "2020-04-25T13:36:49.099Z",
+  "password": "pistol",
+  "id": "100",
+  "email": "eve.holt@reqres.in"
+}
+
+09:36:48.736 [print] Day -- Sat Apr 25 2020 09:36:48 GMT-0400 (EDT)
+09:36:48.743 [print] Month -- 4.0

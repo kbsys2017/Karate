@@ -1,0 +1,18 @@
+<testsuite failures="0" name="src/test/java/karate/sample/features/samplepost.feature" skipped="0" tests="1" time="1.365181">
+  <testcase classname="src.test.java.karate.sample.features.samplepost" name="Test case for post request" time="1.365181">
+    <system-out>* def readpost = read('../../../data1/post.json') ......................... passed
+* def test = call read('classpath:util.js') ............................... passed
+Given url someUrlBase ..................................................... passed
+* print 'Karate-config --' ,someUrlBase ................................... passed
+* print 'Karate-config --' ,appId ......................................... passed
+* headers {Content-Type: 'application/json', Accept: 'application/json'} .. passed
+And request readpost ...................................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+* print 'resonse --',response ............................................. passed
+* def Day = test.getCurrentDate() ......................................... passed
+* print 'Day --' ,Day ..................................................... passed
+* def Month = test.getCurrentMonth() ...................................... passed
+* print 'Month --' ,Month ................................................. passed</system-out>
+  </testcase>
+</testsuite>
