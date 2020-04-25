@@ -26,7 +26,12 @@ Feature: check the POST request
     
     
     * def Month = test.getCurrentMonth()
+
+    * print 'Month --' ,Month
     * print 'Month --' ,Month
     
      #* def Month = test.getCurrentMonth()
     #* print 'Month --' ,Month
+
+    
+
