@@ -1,7 +1,10 @@
 package karate.sample.features;
 
-import static org.junit.Assert.*;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+//import static org.junit.Assert.assertTrue;
+//import static org.junit.jupiter.api.Assertions.assertTrue;
+
+//import static org.junit.Assert.*;
+//import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -10,19 +13,22 @@ import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 
+import com.intuit.karate.KarateOptions;
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
 //import com.intuit.karate.junit5.Karate.Test;
+import com.intuit.karate.junit5.Karate.Test;
 
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import static org.junit.Assert.*;
-import org.junit.BeforeClass;
-import org.junit.Test;
+//import org.junit.BeforeClass;
+//import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
+@KarateOptions(tags = {"~@ignore"},features = "src/test/resources")
 public class AppTest {
 	
 	@Test

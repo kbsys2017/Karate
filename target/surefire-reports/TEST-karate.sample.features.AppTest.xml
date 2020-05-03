@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="karate.sample.features.AppTest" time="1.324" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\suman\workspace\karate"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\suman\workspace\karate"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\suman\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\suman\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7282254505152426838.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\Python\Scripts\;C:\Python\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\WINDOWS\System32\OpenSSH\;C:\Python\Scripts;C:\Program Files\nodejs\;C:\Program Files\Gauge\bin;C:\Program Files\PuTTY\;C:\Users\suman\scoop\shims;C:\Program Files (x86)\Python\Scripts\;C:\Program Files (x86)\Python\;C:\Users\suman\AppData\Local\Microsoft\WindowsApps;C:\Python;;C:\Users\suman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\suman\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\suman"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="suman"/>
+    <property name="java.class.path" value="C:\Users\suman\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_161"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\suman\workspace\karate\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="karate.sample.features.AppTest" name="karate.sample.features.AppTest.testSample" time="1.324">
+    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/Assert
+	at karate.sample.features.AppTest.testSample(AppTest.java:39)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 19 more
+</failure>
+    <system-out>16:02:00.415 [main] INFO com.intuit.karate.Runner - waiting for parallel features to complete ...
+Karate version: 0.9.5
+======================================================
+elapsed:   0.42 | threads:    5 | thread time: 0.00 
+features:     0 | ignored:    1 | efficiency: 0.00
+scenarios:    0 | passed:     0 | failed: 0
+======================================================
+
+16:02:00.943 [main] DEBUG org.apache.velocity - CommonsLogLogChute name is &apos;org.apache.velocity&apos;
+16:02:00.943 [main] DEBUG org.apache.velocity - Initializing Velocity, Calling init()...
+16:02:00.943 [main] DEBUG org.apache.velocity - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+16:02:00.943 [main] DEBUG org.apache.velocity - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+16:02:00.943 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+16:02:00.943 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+16:02:00.943 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+16:02:00.943 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.Log4JLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log4j/Layout).  Falling back to next log system...
+16:02:00.943 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:00.943 [main] DEBUG org.apache.velocity - Using logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:00.953 [main] DEBUG org.apache.velocity - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:00.953 [main] DEBUG org.apache.velocity - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+16:02:00.953 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+16:02:00.970 [main] DEBUG org.apache.velocity - Created &apos;20&apos; parsers.
+16:02:00.970 [main] DEBUG org.apache.velocity - Velocimacro : &quot;velocimacro.library&quot; is not set.  Trying default library: VM_global_library.vm
+16:02:00.970 [main] DEBUG org.apache.velocity - Could not load resource &apos;VM_global_library.vm&apos; from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+16:02:00.970 [main] DEBUG org.apache.velocity - Velocimacro : Default library not found.
+16:02:00.970 [main] DEBUG org.apache.velocity - Velocimacro : allowInline = true : VMs can be defined inline in templates
+16:02:00.970 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+16:02:00.970 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+16:02:00.970 [main] DEBUG org.apache.velocity - Velocimacro : autoload off : VM system will not automatically reload global library macros
+16:02:01.017 [main] DEBUG org.apache.velocity - CommonsLogLogChute name is &apos;org.apache.velocity&apos;
+16:02:01.017 [main] DEBUG org.apache.velocity - Initializing Velocity, Calling init()...
+16:02:01.017 [main] DEBUG org.apache.velocity - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+16:02:01.017 [main] DEBUG org.apache.velocity - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+16:02:01.017 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+16:02:01.017 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+16:02:01.017 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+16:02:01.017 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.Log4JLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log4j/Layout).  Falling back to next log system...
+16:02:01.017 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:01.017 [main] DEBUG org.apache.velocity - Using logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:01.017 [main] DEBUG org.apache.velocity - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.017 [main] DEBUG org.apache.velocity - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+16:02:01.017 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+16:02:01.017 [main] DEBUG org.apache.velocity - Created &apos;20&apos; parsers.
+16:02:01.017 [main] DEBUG org.apache.velocity - Velocimacro : &quot;velocimacro.library&quot; is not set.  Trying default library: VM_global_library.vm
+16:02:01.032 [main] DEBUG org.apache.velocity - Could not load resource &apos;VM_global_library.vm&apos; from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : Default library not found.
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInline = true : VMs can be defined inline in templates
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : autoload off : VM system will not automatically reload global library macros
+16:02:01.032 [main] DEBUG org.apache.velocity - CommonsLogLogChute name is &apos;org.apache.velocity&apos;
+16:02:01.032 [main] DEBUG org.apache.velocity - Initializing Velocity, Calling init()...
+16:02:01.032 [main] DEBUG org.apache.velocity - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+16:02:01.032 [main] DEBUG org.apache.velocity - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.Log4JLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log4j/Layout).  Falling back to next log system...
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Using logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.032 [main] DEBUG org.apache.velocity - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+16:02:01.032 [main] DEBUG org.apache.velocity - Created &apos;20&apos; parsers.
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : &quot;velocimacro.library&quot; is not set.  Trying default library: VM_global_library.vm
+16:02:01.032 [main] DEBUG org.apache.velocity - Could not load resource &apos;VM_global_library.vm&apos; from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : Default library not found.
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInline = true : VMs can be defined inline in templates
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : autoload off : VM system will not automatically reload global library macros
+16:02:01.032 [main] DEBUG org.apache.velocity - CommonsLogLogChute name is &apos;org.apache.velocity&apos;
+16:02:01.032 [main] DEBUG org.apache.velocity - Initializing Velocity, Calling init()...
+16:02:01.032 [main] DEBUG org.apache.velocity - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+16:02:01.032 [main] DEBUG org.apache.velocity - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.Log4JLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log4j/Layout).  Falling back to next log system...
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Using logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.032 [main] DEBUG org.apache.velocity - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+16:02:01.032 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+16:02:01.032 [main] DEBUG org.apache.velocity - Created &apos;20&apos; parsers.
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : &quot;velocimacro.library&quot; is not set.  Trying default library: VM_global_library.vm
+16:02:01.032 [main] DEBUG org.apache.velocity - Could not load resource &apos;VM_global_library.vm&apos; from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : Default library not found.
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInline = true : VMs can be defined inline in templates
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+16:02:01.032 [main] DEBUG org.apache.velocity - Velocimacro : autoload off : VM system will not automatically reload global library macros
+16:02:01.032 [main] DEBUG org.apache.velocity - CommonsLogLogChute name is &apos;org.apache.velocity&apos;
+16:02:01.032 [main] DEBUG org.apache.velocity - Initializing Velocity, Calling init()...
+16:02:01.032 [main] DEBUG org.apache.velocity - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+16:02:01.032 [main] DEBUG org.apache.velocity - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Target log system for org.apache.velocity.runtime.log.Log4JLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log4j/Layout).  Falling back to next log system...
+16:02:01.032 [main] DEBUG org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - Using logger class org.apache.velocity.runtime.log.CommonsLogLogChute
+16:02:01.032 [main] DEBUG org.apache.velocity - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.032 [main] DEBUG org.apache.velocity - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+16:02:01.048 [main] DEBUG org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+16:02:01.048 [main] DEBUG org.apache.velocity - Created &apos;20&apos; parsers.
+16:02:01.048 [main] DEBUG org.apache.velocity - Velocimacro : &quot;velocimacro.library&quot; is not set.  Trying default library: VM_global_library.vm
+16:02:01.048 [main] DEBUG org.apache.velocity - Could not load resource &apos;VM_global_library.vm&apos; from ResourceLoader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader: ClasspathResourceLoader Error: cannot find resource VM_global_library.vm
+16:02:01.048 [main] DEBUG org.apache.velocity - Velocimacro : Default library not found.
+16:02:01.048 [main] DEBUG org.apache.velocity - Velocimacro : allowInline = true : VMs can be defined inline in templates
+16:02:01.048 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+16:02:01.048 [main] DEBUG org.apache.velocity - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+16:02:01.048 [main] DEBUG org.apache.velocity - Velocimacro : autoload off : VM system will not automatically reload global library macros
+16:02:01.048 [main] DEBUG org.apache.velocity - ResourceManager : found templates/generators/overviewFeatures.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.064 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.064 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.064 [main] DEBUG org.apache.velocity - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+16:02:01.064 [main] DEBUG org.apache.velocity - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+16:02:01.064 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.064 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+16:02:01.064 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.070 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+16:02:01.070 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.070 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+16:02:01.070 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.070 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+16:02:01.070 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.070 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+16:02:01.070 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.070 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+16:02:01.070 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.070 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+16:02:01.070 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.070 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+16:02:01.070 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.070 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+16:02:01.070 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.086 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+16:02:01.086 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.101 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+16:02:01.101 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.101 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+16:02:01.101 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.101 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/js/steps-chart.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.117 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/js/scenarios-chart.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.117 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/js/features-chart.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.117 [main] DEBUG org.apache.velocity - VM #includeReportInfo: too many arguments to macro. Wanted 0 got 1
+16:02:01.164 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found templates/generators/reportFeature.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.170 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - VM #includeNavigation: too few arguments to macro. Wanted 1 got 0
+16:02:01.186 [main] DEBUG org.apache.velocity - Left side ($active_tab) of &apos;==&apos; operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 14, column 51]
+16:02:01.186 [main] DEBUG org.apache.velocity - Left side ($active_tab) of &apos;==&apos; operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 15, column 51]
+16:02:01.186 [main] DEBUG org.apache.velocity - Left side ($active_tab) of &apos;==&apos; operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 16, column 51]
+16:02:01.186 [main] DEBUG org.apache.velocity - Left side ($active_tab) of &apos;==&apos; operation has null value. If it is a reference, it may not be in the context or its toString() returned null. /templates/macros/page/navigation.vm[line 20, column 51]
+16:02:01.186 [main] DEBUG org.apache.velocity - VM #includeLead: too few arguments to macro. Wanted 2 got 1
+16:02:01.186 [main] DEBUG org.apache.velocity - VM #includeBrief: too few arguments to macro. Wanted 5 got 3
+16:02:01.186 [main] DEBUG org.apache.velocity - VM #includeBrief: too few arguments to macro. Wanted 5 got 4
+16:02:01.186 [main] DEBUG org.apache.velocity - VM #includeBrief: too few arguments to macro. Wanted 5 got 4
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found templates/generators/overviewTags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+16:02:01.186 [main] DEBUG org.apache.velocity - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.186 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+16:02:01.186 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.202 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.217 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+16:02:01.217 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.218 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+16:02:01.218 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.219 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+16:02:01.220 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.221 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+16:02:01.222 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.223 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+16:02:01.223 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.224 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/js/tags-chart.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.226 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.229 [main] DEBUG org.apache.velocity - ResourceManager : found templates/generators/overviewSteps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.230 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.231 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.231 [main] DEBUG org.apache.velocity - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+16:02:01.231 [main] DEBUG org.apache.velocity - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+16:02:01.231 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.232 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+16:02:01.232 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.233 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+16:02:01.233 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.233 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+16:02:01.233 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.234 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+16:02:01.235 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.235 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+16:02:01.236 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.236 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+16:02:01.237 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.237 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+16:02:01.237 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.238 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+16:02:01.238 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.239 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+16:02:01.239 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.240 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+16:02:01.240 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.241 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+16:02:01.241 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.241 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+16:02:01.242 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.242 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+16:02:01.242 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.243 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+16:02:01.243 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.245 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+16:02:01.245 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.245 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.245 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.245 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.246 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.246 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.247 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+16:02:01.247 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.248 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+16:02:01.248 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.248 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+16:02:01.248 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.249 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+16:02:01.249 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.250 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+16:02:01.250 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.252 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.253 [main] DEBUG org.apache.velocity - ResourceManager : found templates/generators/overviewFailures.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.255 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/headers.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.256 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/head.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.256 [main] DEBUG org.apache.velocity - Velocimacro : added VM stringArray: source=/templates/macros/array.js.vm
+16:02:01.257 [main] DEBUG org.apache.velocity - Velocimacro : added VM numberArray: source=/templates/macros/array.js.vm
+16:02:01.257 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/array.js.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.257 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBuildInfo: source=/templates/macros/page/buildinfo.vm
+16:02:01.257 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/buildinfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.258 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeClassifications: source=/templates/macros/page/classifications.vm
+16:02:01.259 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/classifications.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.259 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeLead: source=/templates/macros/page/lead.vm
+16:02:01.259 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/lead.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.261 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeNavigation: source=/templates/macros/page/navigation.vm
+16:02:01.261 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/navigation.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.262 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportInfo: source=/templates/macros/page/reportInfo.vm
+16:02:01.262 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/reportInfo.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.263 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTitle: source=/templates/macros/page/title.vm
+16:02:01.263 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/page/title.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.263 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeExpandingButtons: source=/templates/macros/report/expandAllButtons.vm
+16:02:01.263 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/expandAllButtons.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.264 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportTable: source=/templates/macros/report/reportTable.vm
+16:02:01.264 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.265 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeReportHeader: source=/templates/macros/report/reportHeader.vm
+16:02:01.265 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/reportHeader.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.266 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeStatsTable: source=/templates/macros/report/statsTable.vm
+16:02:01.266 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/report/statsTable.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.267 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeBrief: source=/templates/macros/json/brief.vm
+16:02:01.267 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/brief.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.268 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDocString: source=/templates/macros/json/docstring.vm
+16:02:01.268 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/docstring.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.269 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeDuration: source=/templates/macros/json/duration.vm
+16:02:01.269 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/duration.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.271 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeElement: source=/templates/macros/json/element.vm
+16:02:01.272 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/element.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.274 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeEmbeddings: source=/templates/macros/json/embeddings.vm
+16:02:01.274 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHtmlEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.274 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.274 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeImageReferenceEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.274 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTextEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.274 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeUnknownEmbedding: source=/templates/macros/json/embeddings.vm
+16:02:01.274 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/embeddings.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.276 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeHooks: source=/templates/macros/json/hooks.vm
+16:02:01.276 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/hooks.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.277 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeOutput: source=/templates/macros/json/output.vm
+16:02:01.277 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/output.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.278 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeMessage: source=/templates/macros/json/message.vm
+16:02:01.278 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/message.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.279 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeSteps: source=/templates/macros/json/steps.vm
+16:02:01.279 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/steps.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.280 [main] DEBUG org.apache.velocity - Velocimacro : added VM includeTags: source=/templates/macros/json/tags.vm
+16:02:01.280 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/macros/json/tags.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+16:02:01.280 [main] DEBUG org.apache.velocity - ResourceManager : found /templates/footer.vm with loader org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+</system-out>
+    <system-err>ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+</system-err>
+  </testcase>
+</testsuite>

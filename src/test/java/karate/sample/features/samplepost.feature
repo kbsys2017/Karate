@@ -1,3 +1,4 @@
+@ignore
 Feature: check the POST request
 
   Background: 

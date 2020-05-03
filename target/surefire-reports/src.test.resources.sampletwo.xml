@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/resources/sampletwo.feature" skipped="0" tests="1" time="1.383406">
+  <testcase classname="src.test.resources.sampletwo" name="Sample 2 Test" time="1.383406">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
